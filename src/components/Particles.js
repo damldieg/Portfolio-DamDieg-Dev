@@ -1,0 +1,77 @@
+import React from 'react';
+import { Particles as ReactParticles } from 'react-particles-js';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  particlesCanvas: {
+    position: 'fixed',
+    opacity: '0.3',
+  },
+}));
+
+const Particles = () => {
+  const classes = useStyles();
+
+  return (
+    <ReactParticles
+      canvasClassName={classes.particlesCanvas}
+      params={{
+        particles: {
+          number: {
+            value: 100,
+            density: {
+              enable: true,
+              value_area: 800,
+            },
+          },
+          shape: {
+            type: 'circle',
+            stroke: {
+              width: 2,
+              color: 'tomato',
+            },
+          },
+          size: {
+            value: 7,
+            random: true,
+            anim: {
+              enable: false,
+              speed: 50,
+              size_min: 0,
+              sync: true,
+            },
+          },
+          opacity: {
+            value: 0.5,
+            random: true,
+            anim: {
+              enable: true,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: false,
+            },
+          },
+        },
+        interactivity: {
+          detect_on: 'canvas',
+          events: {
+            onhover: {
+              enable: true,
+              mode: 'grab',
+            },
+          },
+          modes: {
+            grab: {
+              distance: 350,
+              line_linked: {
+                opacity: 1,
+              },
+            },
+          },
+        },
+      }}
+    />
+  );
+};
+
+export default Particles;
