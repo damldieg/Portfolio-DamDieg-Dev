@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
 const menuItems = [
   { listIcon: <Home />, listText: "Inicio", listPath: "/" },
   { listIcon: <AssignmentInd />, listText: "Sobre Mi", listPath: "/resume" },
-  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
+  { listIcon: <Apps />, listText: "Proyectos", listPath: "/portfolio" },
   { listIcon: <ContactMail />, listText: "Contacto", listPath: "/contact" },
 ];
 
