@@ -200,7 +200,7 @@ const Resume = () => {
             className={classes.subtitle1}
           >
             Recientemente termine el bootcamp de programacion Web Fullstack en Soy Henry. En el desarrolle mis habilidades como programador y las aplique a diferentes proyectos que pueden ver en el apartado de Proyectos.
-            Ademas estudie 4 años la carrera de Derecho en la Universidad de Buenos Aires hasta que descubri mi amor por la programacion.
+            Ademas estudie 4 años la carrera de Derecho en la Universidad de Buenos Aires hasta que descubri mi amor por la programacion. Mi nivel de ingles es intermedio.
           </Typography>
         </Box>
       </Box>
