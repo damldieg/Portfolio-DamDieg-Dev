@@ -140,7 +140,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Soy una persona curiosa y que esta en constante apredizaje. Me gusta investigar sobre las nuevas tendencias en tecnologia y aplicarlas a proyectos. Valoro mucho el trabajo en grupo y me gusta aprender de mis compañeros. Considero que la programacion es una de las herramientas mas potentes para ayudar a aquellos que mas lo necesitan y poder conectar a todos a esta nueva era de la globalizacion. En mis tiempos libres disfruto de ver futbol, formula 1, viajar y jugar videojuegos. 
+            Soy una persona curiosa y que esta en constante aprendizaje. Me gusta investigar sobre las nuevas tendencias en tecnologia y aplicarlas a proyectos. Valoro mucho el trabajo en grupo y me gusta aprender de mis compañeros. Considero que la programacion es una de las herramientas mas potentes para ayudar a aquellos que mas lo necesitan y poder conectar a todos a esta nueva era de la globalizacion. En mis tiempos libres disfruto de ver futbol, formula 1, viajar y jugar videojuegos. 
           </Typography>
         </Box>
         <Box component="div" className={classes.timeLineItem}>
