@@ -50,7 +50,7 @@ const projects = [
   },
   {
     name: 'Lite Crush',
-    description: `Version lite del famoso juego de los caramelos. Desarrollada principalmente con React.js`,
+    description: `Version lite del famoso juego de los caramelos. Desarrollada principalmente con React.js. La idea principal fue entender la logica detras del juego y poder aplicarlas de forma exitosa. Se iran implementando nuevas funcionalidades proximamente`,
     image: project5,
     href: 'https://github.com/damldieg/Lite-Crush',
     href2: 'https://lite-crush.vercel.app/',
