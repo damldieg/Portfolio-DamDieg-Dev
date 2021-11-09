@@ -12,6 +12,7 @@ import project1 from '../images/adogtame.jpg';
 import project2 from '../images/gournet.jpg';
 import project3 from '../images/weather.jpg';
 import project4 from '../images/podcast.jpg';
+import project5 from '../images/lite.jpg';
 import { Link } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
@@ -46,6 +47,13 @@ const projects = [
     image: project3,
     href: 'https://github.com/damldieg/The-Weather-App',
     href2: 'https://the-weather-app-pi.vercel.app/',
+  },
+  {
+    name: 'Lite Crush',
+    description: `Version lite del famoso juego de los caramelos. Desarrollada principalmente con React.js`,
+    image: project5,
+    href: 'https://github.com/damldieg/Lite-Crush',
+    href2: 'https://lite-crush.vercel.app/',
   },
   {
     name: 'Podcast Channel',
